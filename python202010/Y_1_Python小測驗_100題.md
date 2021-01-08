@@ -4,7 +4,7 @@
 1.要在螢幕輸出Hello, Python!  底下程式需使用哪個函數:
 
 #!/usr/bin/python3
-________("Hello, Python!")
+___A_____("Hello, Python!")
 
 (A) print   (B) printf   (C) printline   (D) printn
 ```
@@ -12,7 +12,7 @@ ________("Hello, Python!")
 2.要在程式碼中新增一行註解，底下程式需使用哪個符號:
 
 #!/usr/bin/python3
-__這是一行註解
+_C_這是一行註解
 print("Hello, Python!")
 
 (A)	/   (B) -   (C) #   (D) <!-->
@@ -21,7 +21,7 @@ print("Hello, Python!")
 3.要新建一個變數名稱為school，並將變數值設定為ksu，底下程式需填入:
 
 #!/usr/bin/python3
-(1)______ = “(2)______”
+(1)__b1____ = “(2)_b2_____”
 
 (A) (1)ksu，(2)school    (B) (1) school，(2) ksu  
 (C) (1)”ksu”，(2)school   (D) (1)ksu，(2)”school”  
@@ -31,14 +31,14 @@ print("Hello, Python!")
 
 #!/usr/bin/python3
 y = 65535
-print(______(y))
+print(___a___(y))
 
 (A) str   (B) sum   (C) int   (D)type
 
 ```
 ```
 5.試問以下程式執行後輸出什麼:
-
+a
 #!/usr/bin/python3
 y = 65535
 print(type(y))
@@ -47,7 +47,7 @@ print(type(y))
 ```
 ```
 6.要在程式碼中進行資料型態轉換 底下程式需使用哪個函數將x轉換成float:
-
+c
 #!/usr/bin/python3
 x = 65535
 ______(x)
@@ -56,7 +56,7 @@ ______(x)
 ```
 ```
 7.要計算一個字串長度 底下程式需使用哪個函數:
-
+b
 #!/usr/bin/python3
 string1 = "Hello, Python!"
 print(___________(string1))
@@ -65,18 +65,19 @@ print(___________(string1))
 ```
 ```
 8.試問以下程式執行後輸出什麼結果:
-
+b
 #!/usr/bin/python3
 print(100 < 200)
 
 (A) False   (B) True   (C) 100   (D) 200
 ```
 # 2.資料型態及其運算 DataType
+
 ```
 9.要定義一個整數變數a  底下程式碼需填入什麼:
 #!/usr/bin/python3
 a = ___________
-
+A
 (A) 1
 (B) 1.0
 (C) 100 / 10
@@ -87,7 +88,7 @@ a = ___________
 #!/usr/bin/python3
 a = bool(100)
 print(a)
-
+D
 (A) 0
 (B) 100
 (C) False
@@ -95,6 +96,7 @@ print(a)
 ```
 ```
 11.要在螢幕輸出變數x的資料型態  底下程式需使用哪個函數:
+b
 #!/usr/bin/python3
 a = 100
 print(_______(a))
@@ -103,6 +105,7 @@ print(_______(a))
 ```
 ```
 12.試問以下程式執行後輸出什麼結果:
+a
 #!/usr/bin/python3
 a = “Python!”
 print(type(a))
@@ -111,6 +114,7 @@ print(type(a))
 ```
 ```
 13.試問以下程式執行後輸出什麼結果:
+d
 #!/usr/bin/python3
 a = ("Python", True, 1234)
 print(type(a))
@@ -119,6 +123,7 @@ print(type(a))
 ```
 ```
 14.試問以下程式執行後輸出什麼結果:
+c
 #!/usr/bin/python3
 a = ["Python", "True", "1234"]
 print(type(a))
@@ -127,6 +132,7 @@ print(type(a))
 ```
 ```
 15.試問以下程式執行後輸出什麼結果:
+b
 #!/usr/bin/python3
 a = {"name" : "Eric", "age" : 90}
 print(type(a))
@@ -136,7 +142,7 @@ print(type(a))
 ## 字串1
 ```
 16.試問若要定義一字串變數應填入什麼:
-
+d
 #!/usr/bin/python3
 a = ________
 print(a)
@@ -148,7 +154,7 @@ print(a)
 ```
 ```
 17.試問以下程式執行後輸出什麼結果:
-
+b
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[1])
@@ -157,7 +163,7 @@ print(a[1])
 ```
 ```
 18.要在螢幕輸出llo  底下程式需填入什麼:
-
+c
 #!/usr/bin/python3
 a = "Hello, World!"
 print(a[__________])
@@ -166,6 +172,7 @@ print(a[__________])
 ```
 ```
 19.試問以下程式執行後輸出什麼結果:
+a c
 #!/usr/bin/python3
 a = "        HelloPython "
 print(a.strip())
@@ -177,7 +184,9 @@ print(a.strip())
 ```
 ```
 20.試問若要判斷Kun是否存在於txt字串中以下程式應填入什麼:
+
 #!/usr/bin/python3
+d
 txt = " Kun Shan University was officially founded on April 29, 1965"
 x = "Kun" __________ txt
 print(x) 
@@ -189,6 +198,7 @@ print(x)
 ```
 ```
 21.試問若要輸出a、b兩字串合併後的結果以下程式應填入什麼:
+b
 #!/usr/bin/python3
 a = “Kun Shan”
 b = “University”
@@ -201,6 +211,7 @@ print(__________)
 ```
 ```
 22.試問以下程式執行後輸出什麼結果:
+a
 #!/usr/bin/python3
 a = “Kun Shan”
 b = 100
@@ -214,6 +225,7 @@ print(a + b)
 ## 字串2
 ```
 23.試問以下程式執行後輸出什麼結果:
+b
 #!/usr/bin/python3
 a = 'Kun Shan {}'
 b = 'University'
@@ -226,6 +238,7 @@ print(a.format(b))
 ```
 ```
 24.試問以下程式執行後輸出什麼結果:
+c
 #!/usr/bin/python3
 a = '{1} Kun Shan {0}'
 b = 'University'
@@ -238,6 +251,7 @@ print(a.format(b,‘Hello’))
 ```
 ```
 25.試問若以下程式執行後要輸出一對雙引號需填入什麼:
+a
 #!/usr/bin/python3
 a = “_____________”
 print(a)
@@ -249,6 +263,7 @@ print(a)
 ```
 ```
 26.要在螢幕輸出字串的長度  底下程式需使用哪個函數:
+a
 #!/usr/bin/python3
 a = “Kun Shan”
 print(_______)
@@ -260,6 +275,7 @@ print(_______)
 ```
 ```
 27.試問要英文字母轉為大寫以下程式需填入什麼:
+c
 #!/usr/bin/python3
 a = “Python”
 print(__________)
@@ -271,6 +287,7 @@ print(__________)
 ```
 ```
 28.試問以下程式執行後輸出什麼結果:
+d
 #!/usr/bin/python3
 print(“%s Python! %d” % (“Hello”,123))
 
@@ -281,6 +298,7 @@ print(“%s Python! %d” % (“Hello”,123))
 ```
 ```
 29.若要將字串a中的o替換成x以下程式需填入什麼:
+a
 a = “Hello Python!”
 a = a._________
 print(a)
@@ -291,6 +309,7 @@ print(a)
 (D) format(“o”,”x”)
 ```
 # 3.選擇結構1
+a
 ```
 30.
 if None:
@@ -304,6 +323,7 @@ if None:
 ```
 ```
 31.
+c
 if 1:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -315,6 +335,7 @@ if 1:
 ```
 ```
 32.
+c
 if 100:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -326,6 +347,7 @@ if 100:
 ```
 ```
 33.
+a
 if 0:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -337,6 +359,7 @@ if 0:
 ```
 ```
 34.
+a
 if 100 == “100”:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -348,6 +371,7 @@ if 100 == “100”:
 ```
 ```
 35.
+c
 if 100 == 100:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -359,6 +383,7 @@ if 100 == 100:
 ```
 ```
 36.
+c
 if 100 >= 1:
     print("Hello")
 以上程式碼輸出的結果是？
@@ -371,6 +396,7 @@ if 100 >= 1:
 ## 選擇結構2
 ```
 37.
+a
 a = 100
 b = 50
 if ________:
@@ -386,6 +412,7 @@ else:
 ```
 ```
 38.
+c
 a = 50
 b = 1000
 print("A") if a > b else print("B")
@@ -398,6 +425,7 @@ print("A") if a > b else print("B")
 ```
 ```
 39.
+c
 a = 50
 b = 51
 print("A") if a > b else print("B") if a != b else print("!=")
@@ -410,6 +438,7 @@ print("A") if a > b else print("B") if a != b else print("!=")
 ```
 ```
 40.
+c
 a = 77
 b = 10
 c = 0
@@ -424,13 +453,14 @@ if a > b ___ c > a:
 ```
 ```
 41.
+a
 a = 0
 b = a + 10
 
 if b > a:
   ______
 若要讓程式成功編譯執行應填入什麼？
-
+a
 (A) pass
 (B) return 0
 (C) return True
@@ -438,6 +468,7 @@ if b > a:
 ```
 ```
 42.
+c
 x = 10
 if x >= 10:
   if x > 20:
@@ -453,6 +484,7 @@ if x >= 10:
 ```
 ```
 43.
+d
 a = 33
 b = 32
 x = 10
@@ -473,6 +505,7 @@ elif a == b:
 ## List
 ```
 44.
+
 cat = ______
 創建一個cat的串列需填入什麼？
 
@@ -539,6 +572,7 @@ print(thisislist)
 ```
 ```
 50.
+a
 thisislist = [1,2,3,4,5]
 __________
 若需在list後方加入一元素6要填入什麼？
@@ -585,6 +619,7 @@ print(thisisdict)
 ```
 ```
 54.
+d
 thisisdict = {'a': 1, 'b': 2, 'c': 3}
 if “3” in thisisdict:
    print(“Yes”)
@@ -610,6 +645,7 @@ if “a” in thisisdict:
 
 ```
 56.
+b
 thisisdict1 = dict(a="1", b="2", c=3)
 print(thisisdict1)
 以上程式碼輸出的結果是？
@@ -621,6 +657,7 @@ print(thisisdict1)
 ```
 ```
 57.
+a
 thisisdict1 = dict(a="1", b="2", c=3)
 thisisdict1.pop(“b”)
 print(thisisdict1)
@@ -635,6 +672,7 @@ print(thisisdict1)
 ## while迴圈1
 ```
 58.
+a
 i = 20
 while i < 60:
   print(i)
@@ -661,6 +699,7 @@ print(i)
 ```
 ```
 60.
+a
 i = 20
 while i == 20:
   print(“ok”)
@@ -673,6 +712,7 @@ while i == 20:
 ```
 ```
 61.
+c
 i = 20
 while i == 20:
   print(“ok”)
@@ -686,6 +726,7 @@ while i == 20:
 ```
 ```
 62.
+a
 i = 100
 a = 0
 while i >= 1 :
@@ -701,6 +742,7 @@ print(a)
 ```
 ```
 63.
+d
 i = 10
 while i < 15:
   i += 1
@@ -716,12 +758,13 @@ while i < 15:
 ```
 ```
 64.
+
 i = 1
 _____ i < 3:
   print(i)
   i += 1
 執行以上程式碼輸出的結果是1和2需填入什麼？
-
+b
 (A) True
 (B) while
 (C) for
@@ -730,6 +773,7 @@ _____ i < 3:
 ## for迴圈1
 ```
 65.
+
 ________ x ______ [0, 1, 2]_____
   print(x)
 以上程式碼使用for迴圈空格需依序填入什麼？
@@ -741,6 +785,7 @@ ________ x ______ [0, 1, 2]_____
 ```
 ```
 66.
+
 for x in [0, 1, 2]:
   print(x)
 以上程式碼輸出的結果是？
@@ -764,6 +809,7 @@ print(x)
 ```
 ```
 68.
+a
 for x in [0, 1, 2,3]:
   if x == 2:
     ________
@@ -777,6 +823,7 @@ for x in [0, 1, 2,3]:
 ```
 ```
 69.
+
 for x in range(6):
   print(x)
 以上程式碼輸出的結果是？
@@ -788,6 +835,7 @@ for x in range(6):
 ```
 ```
 70.
+a
 for x in range(20, 15, _____):
   print(x)
 若要讓以上程式碼輸出的結果都差距2需填入什麼？
@@ -838,6 +886,7 @@ ____________
 ```
 ```
 74.
+a
 def add(a,b):
   return a+b
 
@@ -851,6 +900,7 @@ print(_______)
 ```
 ```
 75.
+
 def print_name(yourname):
   print(yourname)
 
@@ -864,6 +914,7 @@ print_name ("Steve Jobs")
 ```
 ```
 76.
+
 def hello(greeting='Hello', name='world'): 
     print('{}, {}!'.format(greeting, name)) 
 
@@ -877,6 +928,7 @@ hello_3()
 ```
 ```
 77.
+
 def hello(greeting='Hello', name='world'): 
     print('{}, {}!'.format(greeting, name)) 
 
@@ -890,6 +942,7 @@ hello_3('great', 'universe')
 ```
 ```
 78.
+
 def hello(greeting='Hello', name='world'): 
     print('{}, {}!'.format(name, greeting)) 
 
